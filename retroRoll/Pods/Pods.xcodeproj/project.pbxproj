@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		599E621F76071271C1FDCE7FBFA5B92B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3261E5A5395F45780622405F504B2804 /* Foundation.framework */; };
+		68439F6DC277801E51B1EC1A4512F3EC /* Pods-retroRoll (iOS)-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D668A664386582FB392172F2A9164D4 /* Pods-retroRoll (iOS)-dummy.m */; };
+		93302C7AC2A3A6040F29EC778F4555A0 /* Pods-retroRoll (macOS)-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F04669726DFD5DE5CB667CDDE5FF1D /* Pods-retroRoll (macOS)-dummy.m */; };
+		B6A7404044BC750897848F645F200B48 /* Pods-retroRoll (macOS)-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A9992015A58EE5C656FCD2D940A033D /* Pods-retroRoll (macOS)-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D10FF29703609AE8124057952A773F97 /* Pods-retroRoll (iOS)-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D12DBCEC655D139E9AAD67F9559307C6 /* Pods-retroRoll (iOS)-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC0A3179A13001FD385BCC4FEB944073 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A54C97DEB1A3977AC3A62AFF00971BF /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0337F73C34F42B98719414DC1FD6B1ED /* Pods-retroRoll (iOS) */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-retroRoll (iOS)"; path = Pods_retroRoll__iOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		10147992FC30499E9D34D396B657BF14 /* Pods-retroRoll (macOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-retroRoll (macOS).debug.xcconfig"; sourceTree = "<group>"; };
+		3261E5A5395F45780622405F504B2804 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3E3C342B9EA2705A5653B2CB006B4060 /* Pods-retroRoll (iOS)-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-retroRoll (iOS)-Info.plist"; sourceTree = "<group>"; };
+		47C71A284D02503D1F1DAEC49FC7A93D /* Pods-retroRoll (iOS)-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-retroRoll (iOS)-acknowledgements.plist"; sourceTree = "<group>"; };
+		5A54C97DEB1A3977AC3A62AFF00971BF /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		5E8A6F7460A5FF3AB7100C02DD76A242 /* Pods-retroRoll (iOS)-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-retroRoll (iOS)-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6D668A664386582FB392172F2A9164D4 /* Pods-retroRoll (iOS)-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-retroRoll (iOS)-dummy.m"; sourceTree = "<group>"; };
+		86F04669726DFD5DE5CB667CDDE5FF1D /* Pods-retroRoll (macOS)-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-retroRoll (macOS)-dummy.m"; sourceTree = "<group>"; };
+		8A9992015A58EE5C656FCD2D940A033D /* Pods-retroRoll (macOS)-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-retroRoll (macOS)-umbrella.h"; sourceTree = "<group>"; };
+		8AF4F0B86FA655A30F464E6F41B9417B /* Pods-retroRoll (macOS) */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-retroRoll (macOS)"; path = Pods_retroRoll__macOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A5C33F424D34E1DD2F19415A1875C12B /* Pods-retroRoll (macOS)-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-retroRoll (macOS)-acknowledgements.plist"; sourceTree = "<group>"; };
+		C5527A896675E4E7F916285672B7B6CD /* Pods-retroRoll (iOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-retroRoll (iOS).debug.xcconfig"; sourceTree = "<group>"; };
+		D12DBCEC655D139E9AAD67F9559307C6 /* Pods-retroRoll (iOS)-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-retroRoll (iOS)-umbrella.h"; sourceTree = "<group>"; };
+		D1E9C66FEE777DFC9C0FC44CAF13CE7B /* Pods-retroRoll (macOS)-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-retroRoll (macOS)-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D9558433A60DB529EBB6C554A319B759 /* Pods-retroRoll (macOS)-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-retroRoll (macOS)-Info.plist"; sourceTree = "<group>"; };
+		E6C32D8611F0B56EACD4BF222F9F20C0 /* Pods-retroRoll (iOS).modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-retroRoll (iOS).modulemap"; sourceTree = "<group>"; };
+		E84A847839F64AAE44588E1C18E729AC /* Pods-retroRoll (macOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-retroRoll (macOS).release.xcconfig"; sourceTree = "<group>"; };
+		EBD0C366B4E751BC3496C9D8A6247755 /* Pods-retroRoll (macOS).modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-retroRoll (macOS).modulemap"; sourceTree = "<group>"; };
+		F5D5D659F12E9E2D5FC9018E856E2486 /* Pods-retroRoll (iOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-retroRoll (iOS).release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42B75B88BE304CF964057A0D2D9E93E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC0A3179A13001FD385BCC4FEB944073 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB38AFAAF16F312CA06F6EEC6A56880B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				599E621F76071271C1FDCE7FBFA5B92B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A1C1673083E3788D4FA085A9553A14C /* Pods-retroRoll (macOS) */ = {
+			isa = PBXGroup;
+			children = (
+				EBD0C366B4E751BC3496C9D8A6247755 /* Pods-retroRoll (macOS).modulemap */,
+				D1E9C66FEE777DFC9C0FC44CAF13CE7B /* Pods-retroRoll (macOS)-acknowledgements.markdown */,
+				A5C33F424D34E1DD2F19415A1875C12B /* Pods-retroRoll (macOS)-acknowledgements.plist */,
+				86F04669726DFD5DE5CB667CDDE5FF1D /* Pods-retroRoll (macOS)-dummy.m */,
+				D9558433A60DB529EBB6C554A319B759 /* Pods-retroRoll (macOS)-Info.plist */,
+				8A9992015A58EE5C656FCD2D940A033D /* Pods-retroRoll (macOS)-umbrella.h */,
+				10147992FC30499E9D34D396B657BF14 /* Pods-retroRoll (macOS).debug.xcconfig */,
+				E84A847839F64AAE44588E1C18E729AC /* Pods-retroRoll (macOS).release.xcconfig */,
+			);
+			name = "Pods-retroRoll (macOS)";
+			path = "Target Support Files/Pods-retroRoll (macOS)";
+			sourceTree = "<group>";
+		};
+		41C052635D3E21350AC08C5F316759F6 /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				5A54C97DEB1A3977AC3A62AFF00971BF /* Cocoa.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		4EDC20B56A0B9A8564E1FCEA191C83C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DABCD2AA1C1DFCD4E2578CE87BDFD93F /* iOS */,
+				41C052635D3E21350AC08C5F316759F6 /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5EDC4941CBB3526D0ADF450A3C842629 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0337F73C34F42B98719414DC1FD6B1ED /* Pods-retroRoll (iOS) */,
+				8AF4F0B86FA655A30F464E6F41B9417B /* Pods-retroRoll (macOS) */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A4E470C1A2A9980678EEE1B2DC100E6 /* Pods-retroRoll (iOS) */ = {
+			isa = PBXGroup;
+			children = (
+				E6C32D8611F0B56EACD4BF222F9F20C0 /* Pods-retroRoll (iOS).modulemap */,
+				5E8A6F7460A5FF3AB7100C02DD76A242 /* Pods-retroRoll (iOS)-acknowledgements.markdown */,
+				47C71A284D02503D1F1DAEC49FC7A93D /* Pods-retroRoll (iOS)-acknowledgements.plist */,
+				6D668A664386582FB392172F2A9164D4 /* Pods-retroRoll (iOS)-dummy.m */,
+				3E3C342B9EA2705A5653B2CB006B4060 /* Pods-retroRoll (iOS)-Info.plist */,
+				D12DBCEC655D139E9AAD67F9559307C6 /* Pods-retroRoll (iOS)-umbrella.h */,
+				C5527A896675E4E7F916285672B7B6CD /* Pods-retroRoll (iOS).debug.xcconfig */,
+				F5D5D659F12E9E2D5FC9018E856E2486 /* Pods-retroRoll (iOS).release.xcconfig */,
+			);
+			name = "Pods-retroRoll (iOS)";
+			path = "Target Support Files/Pods-retroRoll (iOS)";
+			sourceTree = "<group>";
+		};
+		BCFBE95E7F1445FF1F3FE80796D88482 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8A4E470C1A2A9980678EEE1B2DC100E6 /* Pods-retroRoll (iOS) */,
+				2A1C1673083E3788D4FA085A9553A14C /* Pods-retroRoll (macOS) */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				4EDC20B56A0B9A8564E1FCEA191C83C4 /* Frameworks */,
+				5EDC4941CBB3526D0ADF450A3C842629 /* Products */,
+				BCFBE95E7F1445FF1F3FE80796D88482 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		DABCD2AA1C1DFCD4E2578CE87BDFD93F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3261E5A5395F45780622405F504B2804 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A294987B07806AAAAA86CA609B07E6ED /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D10FF29703609AE8124057952A773F97 /* Pods-retroRoll (iOS)-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4C859905900C3DD6FF04EC1A94C4397 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6A7404044BC750897848F645F200B48 /* Pods-retroRoll (macOS)-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		56D336F14AE7B2DD9FF32114B38BE7F6 /* Pods-retroRoll (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DEF60972DA83CB97423FD21CE0846AB /* Build configuration list for PBXNativeTarget "Pods-retroRoll (macOS)" */;
+			buildPhases = (
+				C4C859905900C3DD6FF04EC1A94C4397 /* Headers */,
+				6A9E0B4EB516D698BFF6609EF9C6CB6B /* Sources */,
+				42B75B88BE304CF964057A0D2D9E93E4 /* Frameworks */,
+				7E1D190B21F03867F5A051A0A5E8E03B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-retroRoll (macOS)";
+			productName = Pods_retroRoll__macOS_;
+			productReference = 8AF4F0B86FA655A30F464E6F41B9417B /* Pods-retroRoll (macOS) */;
+			productType = "com.apple.product-type.framework";
+		};
+		C0961AE4800C812EE5101F88E66C2F7A /* Pods-retroRoll (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C09DD3D3902CEC31DBF1110471AC7FF /* Build configuration list for PBXNativeTarget "Pods-retroRoll (iOS)" */;
+			buildPhases = (
+				A294987B07806AAAAA86CA609B07E6ED /* Headers */,
+				14B271DF17B93448BF71E2D6BD869BC1 /* Sources */,
+				AB38AFAAF16F312CA06F6EEC6A56880B /* Frameworks */,
+				9B829B8DF0AFC4A3E26A914AC3D628D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-retroRoll (iOS)";
+			productName = Pods_retroRoll__iOS_;
+			productReference = 0337F73C34F42B98719414DC1FD6B1ED /* Pods-retroRoll (iOS) */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 5EDC4941CBB3526D0ADF450A3C842629 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0961AE4800C812EE5101F88E66C2F7A /* Pods-retroRoll (iOS) */,
+				56D336F14AE7B2DD9FF32114B38BE7F6 /* Pods-retroRoll (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E1D190B21F03867F5A051A0A5E8E03B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B829B8DF0AFC4A3E26A914AC3D628D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14B271DF17B93448BF71E2D6BD869BC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68439F6DC277801E51B1EC1A4512F3EC /* Pods-retroRoll (iOS)-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A9E0B4EB516D698BFF6609EF9C6CB6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93302C7AC2A3A6040F29EC778F4555A0 /* Pods-retroRoll (macOS)-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4654A3B5BF607B361F775B6DA2241091 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E84A847839F64AAE44588E1C18E729AC /* Pods-retroRoll (macOS).release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-retroRoll (macOS)/Pods-retroRoll (macOS)-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MODULEMAP_FILE = "Target Support Files/Pods-retroRoll (macOS)/Pods-retroRoll (macOS).modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6C85647F9B051B8207061377D4FED462 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		6FEA7FEB810D3EA7DE9E77D057E6D3A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10147992FC30499E9D34D396B657BF14 /* Pods-retroRoll (macOS).debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-retroRoll (macOS)/Pods-retroRoll (macOS)-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MODULEMAP_FILE = "Target Support Files/Pods-retroRoll (macOS)/Pods-retroRoll (macOS).modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9FC644B877F764AF97472178501FC87D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5D5D659F12E9E2D5FC9018E856E2486 /* Pods-retroRoll (iOS).release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-retroRoll (iOS)/Pods-retroRoll (iOS)-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-retroRoll (iOS)/Pods-retroRoll (iOS).modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B5DAC8DFCC5E9BA1BCF1301F3191F0DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5527A896675E4E7F916285672B7B6CD /* Pods-retroRoll (iOS).debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-retroRoll (iOS)/Pods-retroRoll (iOS)-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-retroRoll (iOS)/Pods-retroRoll (iOS).modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EB17D8DF20FC5638F2D99522D491151A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C09DD3D3902CEC31DBF1110471AC7FF /* Build configuration list for PBXNativeTarget "Pods-retroRoll (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5DAC8DFCC5E9BA1BCF1301F3191F0DE /* Debug */,
+				9FC644B877F764AF97472178501FC87D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB17D8DF20FC5638F2D99522D491151A /* Debug */,
+				6C85647F9B051B8207061377D4FED462 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DEF60972DA83CB97423FD21CE0846AB /* Build configuration list for PBXNativeTarget "Pods-retroRoll (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FEA7FEB810D3EA7DE9E77D057E6D3A3 /* Debug */,
+				4654A3B5BF607B361F775B6DA2241091 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

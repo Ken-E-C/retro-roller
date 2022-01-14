@@ -21,6 +21,8 @@
 		8840747A2790F63800D79721 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8840744C2790F63700D79721 /* Persistence.swift */; };
 		8840747B2790F63800D79721 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8840744D2790F63800D79721 /* Assets.xcassets */; };
 		8840747C2790F63800D79721 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8840744D2790F63800D79721 /* Assets.xcassets */; };
+		ABEA76287FEA96372B63F2C8 /* Pods_retroRoll__macOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C53F8562280C7F6F700CFA3 /* Pods_retroRoll__macOS_.framework */; };
+		D2DD19084C275DB15EB6ED68 /* Pods_retroRoll__iOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C535BA03C70FE8A1B66F1878 /* Pods_retroRoll__iOS_.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3B17AA13F5DF2C6F954994DA /* Pods-retroRoll (iOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-retroRoll (iOS).debug.xcconfig"; path = "Target Support Files/Pods-retroRoll (iOS)/Pods-retroRoll (iOS).debug.xcconfig"; sourceTree = "<group>"; };
+		57546D8022A1095A54FB39B6 /* Pods-retroRoll (iOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-retroRoll (iOS).release.xcconfig"; path = "Target Support Files/Pods-retroRoll (iOS)/Pods-retroRoll (iOS).release.xcconfig"; sourceTree = "<group>"; };
 		884074492790F63700D79721 /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
 		8840744A2790F63700D79721 /* retroRollApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = retroRollApp.swift; sourceTree = "<group>"; };
 		8840744B2790F63700D79721 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +59,10 @@
 		8840746B2790F63800D79721 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8840746F2790F63800D79721 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		884074712790F63800D79721 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		8C53F8562280C7F6F700CFA3 /* Pods_retroRoll__macOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_retroRoll__macOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D25A0714C97AA6EDC5BF3DD /* Pods-retroRoll (macOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-retroRoll (macOS).release.xcconfig"; path = "Target Support Files/Pods-retroRoll (macOS)/Pods-retroRoll (macOS).release.xcconfig"; sourceTree = "<group>"; };
+		C535BA03C70FE8A1B66F1878 /* Pods_retroRoll__iOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_retroRoll__iOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1411FF772C7CF5C7DEB5612 /* Pods-retroRoll (macOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-retroRoll (macOS).debug.xcconfig"; path = "Target Support Files/Pods-retroRoll (macOS)/Pods-retroRoll (macOS).debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2DD19084C275DB15EB6ED68 /* Pods_retroRoll__iOS_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABEA76287FEA96372B63F2C8 /* Pods_retroRoll__macOS_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +99,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A5EBEA8D6D7DA5B2A058930 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B17AA13F5DF2C6F954994DA /* Pods-retroRoll (iOS).debug.xcconfig */,
+				57546D8022A1095A54FB39B6 /* Pods-retroRoll (iOS).release.xcconfig */,
+				F1411FF772C7CF5C7DEB5612 /* Pods-retroRoll (macOS).debug.xcconfig */,
+				8D25A0714C97AA6EDC5BF3DD /* Pods-retroRoll (macOS).release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4FAC6329417C9609A7ABC2DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C535BA03C70FE8A1B66F1878 /* Pods_retroRoll__iOS_.framework */,
+				8C53F8562280C7F6F700CFA3 /* Pods_retroRoll__macOS_.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		884074422790F63700D79721 = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +128,8 @@
 				884074622790F63800D79721 /* Tests iOS */,
 				8840746E2790F63800D79721 /* Tests macOS */,
 				884074532790F63800D79721 /* Products */,
+				2A5EBEA8D6D7DA5B2A058930 /* Pods */,
+				4FAC6329417C9609A7ABC2DC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -156,6 +189,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8840747F2790F63800D79721 /* Build configuration list for PBXNativeTarget "retroRoll (iOS)" */;
 			buildPhases = (
+				DAF3319957E8769CF7C0D2E3 /* [CP] Check Pods Manifest.lock */,
 				8840744E2790F63800D79721 /* Sources */,
 				8840744F2790F63800D79721 /* Frameworks */,
 				884074502790F63800D79721 /* Resources */,
@@ -173,6 +207,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 884074822790F63800D79721 /* Build configuration list for PBXNativeTarget "retroRoll (macOS)" */;
 			buildPhases = (
+				7D8CF0B5C116553FE2B53724 /* [CP] Check Pods Manifest.lock */,
 				884074542790F63800D79721 /* Sources */,
 				884074552790F63800D79721 /* Frameworks */,
 				884074562790F63800D79721 /* Resources */,
@@ -301,6 +336,53 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7D8CF0B5C116553FE2B53724 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-retroRoll (macOS)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAF3319957E8769CF7C0D2E3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-retroRoll (iOS)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8840744E2790F63800D79721 /* Sources */ = {
@@ -472,6 +554,7 @@
 		};
 		884074802790F63800D79721 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B17AA13F5DF2C6F954994DA /* Pods-retroRoll (iOS).debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -502,6 +585,7 @@
 		};
 		884074812790F63800D79721 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57546D8022A1095A54FB39B6 /* Pods-retroRoll (iOS).release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -533,6 +617,7 @@
 		};
 		884074832790F63800D79721 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1411FF772C7CF5C7DEB5612 /* Pods-retroRoll (macOS).debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -561,6 +646,7 @@
 		};
 		884074842790F63800D79721 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D25A0714C97AA6EDC5BF3DD /* Pods-retroRoll (macOS).release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
