@@ -1,0 +1,755 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		884074642790F63800D79721 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884074632790F63800D79721 /* Tests_iOS.swift */; };
+		884074662790F63800D79721 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884074652790F63800D79721 /* Tests_iOSLaunchTests.swift */; };
+		884074702790F63800D79721 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8840746F2790F63800D79721 /* Tests_macOS.swift */; };
+		884074722790F63800D79721 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884074712790F63800D79721 /* Tests_macOSLaunchTests.swift */; };
+		884074732790F63800D79721 /* retroRoll.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 884074482790F63700D79721 /* retroRoll.xcdatamodeld */; };
+		884074742790F63800D79721 /* retroRoll.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 884074482790F63700D79721 /* retroRoll.xcdatamodeld */; };
+		884074752790F63800D79721 /* retroRollApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8840744A2790F63700D79721 /* retroRollApp.swift */; };
+		884074762790F63800D79721 /* retroRollApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8840744A2790F63700D79721 /* retroRollApp.swift */; };
+		884074772790F63800D79721 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8840744B2790F63700D79721 /* ContentView.swift */; };
+		884074782790F63800D79721 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8840744B2790F63700D79721 /* ContentView.swift */; };
+		884074792790F63800D79721 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8840744C2790F63700D79721 /* Persistence.swift */; };
+		8840747A2790F63800D79721 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8840744C2790F63700D79721 /* Persistence.swift */; };
+		8840747B2790F63800D79721 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8840744D2790F63800D79721 /* Assets.xcassets */; };
+		8840747C2790F63800D79721 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8840744D2790F63800D79721 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		884074602790F63800D79721 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 884074432790F63700D79721 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 884074512790F63800D79721;
+			remoteInfo = "retroRoll (iOS)";
+		};
+		8840746C2790F63800D79721 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 884074432790F63700D79721 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 884074572790F63800D79721;
+			remoteInfo = "retroRoll (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		884074492790F63700D79721 /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
+		8840744A2790F63700D79721 /* retroRollApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = retroRollApp.swift; sourceTree = "<group>"; };
+		8840744B2790F63700D79721 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8840744C2790F63700D79721 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		8840744D2790F63800D79721 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		884074522790F63800D79721 /* retroRoll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = retroRoll.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		884074582790F63800D79721 /* retroRoll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = retroRoll.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8840745A2790F63800D79721 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		8840745F2790F63800D79721 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		884074632790F63800D79721 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		884074652790F63800D79721 /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		8840746B2790F63800D79721 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8840746F2790F63800D79721 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		884074712790F63800D79721 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8840744F2790F63800D79721 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		884074552790F63800D79721 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8840745C2790F63800D79721 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		884074682790F63800D79721 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		884074422790F63700D79721 = {
+			isa = PBXGroup;
+			children = (
+				884074472790F63700D79721 /* Shared */,
+				884074592790F63800D79721 /* macOS */,
+				884074622790F63800D79721 /* Tests iOS */,
+				8840746E2790F63800D79721 /* Tests macOS */,
+				884074532790F63800D79721 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		884074472790F63700D79721 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				8840744A2790F63700D79721 /* retroRollApp.swift */,
+				8840744B2790F63700D79721 /* ContentView.swift */,
+				8840744C2790F63700D79721 /* Persistence.swift */,
+				8840744D2790F63800D79721 /* Assets.xcassets */,
+				884074482790F63700D79721 /* retroRoll.xcdatamodeld */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		884074532790F63800D79721 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				884074522790F63800D79721 /* retroRoll.app */,
+				884074582790F63800D79721 /* retroRoll.app */,
+				8840745F2790F63800D79721 /* Tests iOS.xctest */,
+				8840746B2790F63800D79721 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		884074592790F63800D79721 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				8840745A2790F63800D79721 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		884074622790F63800D79721 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				884074632790F63800D79721 /* Tests_iOS.swift */,
+				884074652790F63800D79721 /* Tests_iOSLaunchTests.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		8840746E2790F63800D79721 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				8840746F2790F63800D79721 /* Tests_macOS.swift */,
+				884074712790F63800D79721 /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		884074512790F63800D79721 /* retroRoll (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8840747F2790F63800D79721 /* Build configuration list for PBXNativeTarget "retroRoll (iOS)" */;
+			buildPhases = (
+				8840744E2790F63800D79721 /* Sources */,
+				8840744F2790F63800D79721 /* Frameworks */,
+				884074502790F63800D79721 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "retroRoll (iOS)";
+			productName = "retroRoll (iOS)";
+			productReference = 884074522790F63800D79721 /* retroRoll.app */;
+			productType = "com.apple.product-type.application";
+		};
+		884074572790F63800D79721 /* retroRoll (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 884074822790F63800D79721 /* Build configuration list for PBXNativeTarget "retroRoll (macOS)" */;
+			buildPhases = (
+				884074542790F63800D79721 /* Sources */,
+				884074552790F63800D79721 /* Frameworks */,
+				884074562790F63800D79721 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "retroRoll (macOS)";
+			productName = "retroRoll (macOS)";
+			productReference = 884074582790F63800D79721 /* retroRoll.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8840745E2790F63800D79721 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 884074852790F63800D79721 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				8840745B2790F63800D79721 /* Sources */,
+				8840745C2790F63800D79721 /* Frameworks */,
+				8840745D2790F63800D79721 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				884074612790F63800D79721 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = 8840745F2790F63800D79721 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		8840746A2790F63800D79721 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 884074882790F63800D79721 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				884074672790F63800D79721 /* Sources */,
+				884074682790F63800D79721 /* Frameworks */,
+				884074692790F63800D79721 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8840746D2790F63800D79721 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = 8840746B2790F63800D79721 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		884074432790F63700D79721 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					884074512790F63800D79721 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					884074572790F63800D79721 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					8840745E2790F63800D79721 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 884074512790F63800D79721;
+					};
+					8840746A2790F63800D79721 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 884074572790F63800D79721;
+					};
+				};
+			};
+			buildConfigurationList = 884074462790F63700D79721 /* Build configuration list for PBXProject "retroRoll" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 884074422790F63700D79721;
+			productRefGroup = 884074532790F63800D79721 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				884074512790F63800D79721 /* retroRoll (iOS) */,
+				884074572790F63800D79721 /* retroRoll (macOS) */,
+				8840745E2790F63800D79721 /* Tests iOS */,
+				8840746A2790F63800D79721 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		884074502790F63800D79721 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8840747B2790F63800D79721 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		884074562790F63800D79721 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8840747C2790F63800D79721 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8840745D2790F63800D79721 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		884074692790F63800D79721 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8840744E2790F63800D79721 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				884074732790F63800D79721 /* retroRoll.xcdatamodeld in Sources */,
+				884074792790F63800D79721 /* Persistence.swift in Sources */,
+				884074752790F63800D79721 /* retroRollApp.swift in Sources */,
+				884074772790F63800D79721 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		884074542790F63800D79721 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				884074742790F63800D79721 /* retroRoll.xcdatamodeld in Sources */,
+				8840747A2790F63800D79721 /* Persistence.swift in Sources */,
+				884074762790F63800D79721 /* retroRollApp.swift in Sources */,
+				884074782790F63800D79721 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8840745B2790F63800D79721 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				884074662790F63800D79721 /* Tests_iOSLaunchTests.swift in Sources */,
+				884074642790F63800D79721 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		884074672790F63800D79721 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				884074722790F63800D79721 /* Tests_macOSLaunchTests.swift in Sources */,
+				884074702790F63800D79721 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		884074612790F63800D79721 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 884074512790F63800D79721 /* retroRoll (iOS) */;
+			targetProxy = 884074602790F63800D79721 /* PBXContainerItemProxy */;
+		};
+		8840746D2790F63800D79721 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 884074572790F63800D79721 /* retroRoll (macOS) */;
+			targetProxy = 8840746C2790F63800D79721 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8840747D2790F63800D79721 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8840747E2790F63800D79721 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		884074802790F63800D79721 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 63F4D7KM8P;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kennyinc.retroRoll;
+				PRODUCT_NAME = retroRoll;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		884074812790F63800D79721 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 63F4D7KM8P;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kennyinc.retroRoll;
+				PRODUCT_NAME = retroRoll;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		884074832790F63800D79721 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 63F4D7KM8P;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kennyinc.retroRoll;
+				PRODUCT_NAME = retroRoll;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		884074842790F63800D79721 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 63F4D7KM8P;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kennyinc.retroRoll;
+				PRODUCT_NAME = retroRoll;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		884074862790F63800D79721 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 63F4D7KM8P;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kennyinc.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "retroRoll (iOS)";
+			};
+			name = Debug;
+		};
+		884074872790F63800D79721 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 63F4D7KM8P;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kennyinc.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "retroRoll (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		884074892790F63800D79721 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 63F4D7KM8P;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kennyinc.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "retroRoll (macOS)";
+			};
+			name = Debug;
+		};
+		8840748A2790F63800D79721 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 63F4D7KM8P;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kennyinc.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "retroRoll (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		884074462790F63700D79721 /* Build configuration list for PBXProject "retroRoll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8840747D2790F63800D79721 /* Debug */,
+				8840747E2790F63800D79721 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8840747F2790F63800D79721 /* Build configuration list for PBXNativeTarget "retroRoll (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				884074802790F63800D79721 /* Debug */,
+				884074812790F63800D79721 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		884074822790F63800D79721 /* Build configuration list for PBXNativeTarget "retroRoll (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				884074832790F63800D79721 /* Debug */,
+				884074842790F63800D79721 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		884074852790F63800D79721 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				884074862790F63800D79721 /* Debug */,
+				884074872790F63800D79721 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		884074882790F63800D79721 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				884074892790F63800D79721 /* Debug */,
+				8840748A2790F63800D79721 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		884074482790F63700D79721 /* retroRoll.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				884074492790F63700D79721 /* Shared.xcdatamodel */,
+			);
+			currentVersion = 884074492790F63700D79721 /* Shared.xcdatamodel */;
+			path = retroRoll.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 884074432790F63700D79721 /* Project object */;
+}
